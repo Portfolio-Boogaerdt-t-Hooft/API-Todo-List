@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <form>
+        <input type="text" class="textfield" />
+        <input type="button" class="add-button" value="Voeg taak toe" />
+        <input type="button" class="delete-button" value="Delete alles" />
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script defer src="api-client.js"></script>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
